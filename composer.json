@@ -1,0 +1,21 @@
+{
+    "name": "reparsoft/yii2-widgets-redirect",
+    "description": "This extension is an the Page hint and redirect of The widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "bootstrap", "redirect", "extension", "widget"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "repar",
+            "email": "47558328@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "repkit\\url\\": ""
+        }
+    }
+}

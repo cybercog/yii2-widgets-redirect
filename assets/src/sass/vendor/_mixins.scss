@@ -1,0 +1,9 @@
+@import "functions";
+
+/**
+ * @var $base64 Whether to the use base64 model dispaly image
+ * @type string
+ */
+@mixin bg-image($imageName, $base64:false, $params: no-repeat){
+   background:image($imageName, $base64) $params;
+}

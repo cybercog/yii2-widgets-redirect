@@ -1,0 +1,56 @@
+@import "vendor/functions", 
+        "vendor/mixins",
+        "compass/reset";
+        //"compass/css3";
+        //
+
+$color_main: #31AA49;
+
+.redirect{
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-100px 0 0 -450px;
+    
+
+    .left{
+       width: 194px;
+       height: 235px;
+       float: left;
+       @include bg-image("favicon.png", true)
+    }
+
+    .right{
+    	width: 700px;
+    	float: right;
+    	color: #6A6A6A;
+
+    	h2{
+    		font-size: 32px;
+    		color: $color_main;
+    		font-family: "微软雅黑";
+    	}
+
+    	p{
+    		font-size: 22px;
+    		line-height: 36px;
+    		padding:50px
+    	}
+
+    	div{
+    		font-size: 14px;
+
+    		a{
+    			color:$color_main;
+    			text-decoration: none;
+
+    			&:hover{
+    				color:#555;
+    				text-decoration: underline
+    			}
+    		}
+    	}
+    }
+}

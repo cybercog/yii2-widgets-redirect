@@ -1,0 +1,7 @@
+@import "compass";
+
+@function image($imageName, $base64:false){
+	
+	 @return if($base64, inline-image($imageName), image-url($imageName));
+
+}
